@@ -1,0 +1,9 @@
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/bin/Debug/netcoreapp2.1/Associados.Domain.deps.json
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/bin/Debug/netcoreapp2.1/Associados.Domain.dll
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/bin/Debug/netcoreapp2.1/Associados.Domain.pdb
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/obj/Debug/netcoreapp2.1/Associados.Domain.csprojAssemblyReference.cache
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/obj/Debug/netcoreapp2.1/Associados.Domain.csproj.CoreCompileInputs.cache
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/obj/Debug/netcoreapp2.1/Associados.Domain.AssemblyInfoInputs.cache
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/obj/Debug/netcoreapp2.1/Associados.Domain.AssemblyInfo.cs
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/obj/Debug/netcoreapp2.1/Associados.Domain.dll
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Domain/obj/Debug/netcoreapp2.1/Associados.Domain.pdb

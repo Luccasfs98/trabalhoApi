@@ -1,0 +1,14 @@
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.csprojAssemblyReference.cache
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.csproj.CoreCompileInputs.cache
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.AssemblyInfoInputs.cache
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.AssemblyInfo.cs
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Data.deps.json
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Data.runtimeconfig.json
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Data.runtimeconfig.dev.json
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Data.dll
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Data.pdb
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Domain.dll
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/bin/Debug/netcoreapp2.1/Associados.Domain.pdb
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.csproj.CopyComplete
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.dll
+/home/luccas/Área de Trabalho/dotnet study/trabalho api/Associados.Data/obj/Debug/netcoreapp2.1/Associados.Data.pdb
