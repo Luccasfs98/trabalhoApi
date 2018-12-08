@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Associados.API.DTOs;
 using Associados.Domain.DependenteRoot;
 using Associados.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,23 @@ namespace Associados.API.Controllers
         public async Task <Dependente> Get(int id)
         {
             return await this.repository.GetById(id);
+        }
+
+        [HttpGet("dto")]
+        public async Task<IEnumerable<DependenteDTO>> GetAllDTOAsync()
+        {
+            var dependentes = await this.repository.GetAll();
+            var depDTO = new List<DependenteDTO>();
+             dependentes.ForEach(dependente =>
+            {
+                depDTO.Add(
+                     new DependenteDTO
+                    {
+                        Name = dependente.Nome,
+                    }
+                );
+            });
+            return depDTO;
         }
 
         [HttpPost]
