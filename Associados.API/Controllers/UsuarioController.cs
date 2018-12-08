@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
@@ -59,14 +58,11 @@ namespace Associados.API.Controllers
         [HttpPost]
         public async Task <IActionResult> Post([FromBody]Usuario item)
         {
-            Console.WriteLine("oii");
-            //await this.repository.Add(item);
-            return Ok();
-            /* 
+            
             if (ModelState.IsValid)
             {
                  await this.repository.Add(item);
-                 return Ok();
+                 return Ok(item);
             } else
              {		
                 var errors = new List<string>();
@@ -81,7 +77,6 @@ namespace Associados.API.Controllers
                     message = errors
                 });
             }
-            */
         }
 
 
@@ -103,12 +98,12 @@ namespace Associados.API.Controllers
 
           public string BuildToken()
         {
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("TokenTeste"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("TokenAssociadosApi"));
             var creed = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                audience: "TokenAssociados",
-                issuer: "TokenAssociados",
+                audience: "TokenAssociadosApi",
+                issuer: "TokenAssociadosApi",
                 signingCredentials: creed
             );
             return new JwtSecurityTokenHandler().WriteToken(token);

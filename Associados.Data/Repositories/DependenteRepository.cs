@@ -17,7 +17,7 @@ namespace Associados.Data.Repositories
         }
         public async Task Add(Dependente obj)
         {
-            await context.Dependente.AddAsync(obj);
+            await context.AddAsync(obj);
             await context.SaveChangesAsync();
         }
 

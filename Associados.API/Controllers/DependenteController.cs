@@ -31,7 +31,7 @@ namespace Associados.API.Controllers
         [HttpPost]
         public async Task <IActionResult> Post([FromBody]Dependente dependente)
         {
-            await this.repository.Add(dependente);
+            await repository.Add(dependente);
             return Ok(dependente);
         }
 
