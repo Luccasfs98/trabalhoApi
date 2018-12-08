@@ -43,7 +43,7 @@ namespace Associados.API
                                         ValidateIssuerSigningKey = true,
                                         ValidAudience = "TokenAssociados",
                                         ValidIssuer = "TokenAssociados",
-                                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Token"))
+                                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("TokenTeste"))
                                     }
                     );
              services.AddDbContext<DataContext>(x =>
